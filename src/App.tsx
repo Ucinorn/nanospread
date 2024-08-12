@@ -71,10 +71,11 @@ const App: Component = () => {
         </div>
       </header>
       <main>
-
+        
+        <div class="grid">
+        </div>
       </main>
       <footer>
-        <div class="grid">
           <p>{GS.counter}</p>
           <div class="ml-auto"></div>
           <button class="btn" onClick={startGameLoop}>Start</button>

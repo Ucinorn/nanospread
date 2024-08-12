@@ -3,6 +3,8 @@ import { createSignal, onCleanup } from "solid-js";
 import { mergeProps } from "solid-js";
 
 const Nano: Component = () => {
-    const merged = mergeProps({ greeting: "Hi", name: "John" }, props);
+    const { count, setCount } = createSignal( 0 );
+    const { level, setLevel } = createSignal( 0 );
+    const { direction, setDirection } = createSignal( null );
 }
 export default Nano

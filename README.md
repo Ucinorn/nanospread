@@ -1,3 +1,13 @@
+#### NANOSPREAD
+
+An incremental game built to test out solid.js. Loosely based on existing game Nanospread
+
+https://stopsign.github.io/Nanospread/
+
+### Premise
+
+The game takes place on a level of randomly generated squares. Each square has a level, and count. Every tick, each square sends 1% of its count to adjacent squares (up, down, left, right). You start with only one square, and must activate all squares in the level. Some squares have a cost to activate, which acts as negative count: you must transfer that amount to activate it. You can choose to focus a square in a specific direction, and all of its tranfer goes in that direction. 
+
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
